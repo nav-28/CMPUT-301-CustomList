@@ -75,7 +75,7 @@ public class CustomList extends ArrayAdapter<City> {
         String name = checkCity.getCityName();
         for(int i = 0; i < getCount(); i++){
             if (cities.get(i).getCityName().equals(name)){
-                city =  false;
+                city =  true;
             }
         }
         return city;
